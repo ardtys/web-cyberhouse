@@ -1,0 +1,45 @@
+{
+  "site": {
+    "title": "Cyber House",
+    "base_url": "https://pinwheel-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "51",
+    "logo_height": "48",
+    "logo_text": "Cyber House"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 100,
+    "blog_folder": "blog"
+  },
+
+  "call_to_action": {
+    "title": "Komunitas Cyber Security & Teknologi Terbesar",
+    "button": {
+      "label": "Ikuti Kami",
+      "link": "https://www.instagram.com/cyberhouse.id/"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  },
+
+  "params": {
+    "email": "work.cyberhouse@gmail.com",
+    "location": "Jakarta, Indonesia",
+    "copyright": "Copyright © Cyber House"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "pinwheel astro"
+  }
+}

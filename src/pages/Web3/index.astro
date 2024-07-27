@@ -1,0 +1,24 @@
+---
+import Shape from '@/components/Shape.astro';
+import Base from '@/layouts/Base.astro';
+import Comingsoon from '../comingsoonWeb3.astro';
+import Time from '../../layouts/components/Time.astro';
+---
+
+<Base>
+  <Shape />
+  <section class="mb-[10rem]">
+    <center>
+      <div>
+        <h1>Web 3 Course</h1>
+        <h3>We're<span class="text-[#F5BA20]"> Launching </span>Soon</h3>
+      </div>
+      <div class="justify-center items-center">
+        <Comingsoon />
+        <div class="mt-[3rem]">
+          <Time />
+        </div>
+      </div>
+    </center>
+  </section>
+</Base>

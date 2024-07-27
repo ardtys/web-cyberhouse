@@ -1,0 +1,68 @@
+<section>
+  <div
+    class="grid grid-cols-2 justify-center object-center mt-[2rem] sm:flex sm:gap-[3rem]">
+    <div class="grid-rows-2">
+      <div
+        id="days"
+        class="relative w-[100px] h-[100px] leading-[100px] text-center bg-[#FABA20] my-[15px] rounded-full text-[3em] font-bold text-white">
+        0
+      </div>
+      <h6 class="text-[#FABA20]">Days</h6>
+    </div>
+    <div class="grid-rows-2">
+      <div
+        id="hours"
+        class="relative leading-[100px] text-center bg-[#FABA20] my-[15px] rounded-full text-[3em] font-bold text-white w-[100px] h-[100px]">
+        0
+      </div>
+      <h6 class="text-[#FABA20]">Hours</h6>
+    </div>
+    <div class="grid-rows-2">
+      <div
+        id="minutes"
+        class="relative w-[100px] h-[100px] leading-[100px] text-center bg-[#FABA20] my-[15px] rounded-full text-[3em] font-bold text-white">
+        0
+      </div>
+      <h6 class="text-[#FABA20]">Minutes</h6>
+    </div>
+    <div class="grid-rows-2">
+      <div
+        id="seconds"
+        class="relative w-[100px] h-[100px] leading-[100px] text-center bg-[#FABA20] my-[15px] rounded-full text-[3em] font-bold text-white ">
+        0
+      </div>
+      <h6 class="text-[#FABA20]">Seconds</h6>
+    </div>
+  </div>
+
+
+  <script>
+    const countdown = () => {
+      const countDate = new Date('January 1, 2025 00:00:00').getTime();
+      const now = new Date().getTime();
+      const gap = countDate - now;
+
+      const second = 1000;
+      const minute = second * 60;
+      const hour = minute * 60;
+      const day = hour * 24;
+
+      const textDay = Math.floor(gap / day);
+      const textHour = Math.floor((gap % day) / hour);
+      const textMinute = Math.floor((gap % hour) / minute);
+      const textSecond = Math.floor((gap % minute) / second);
+
+      const daysElement = document.getElementById('days');
+      const hoursElement = document.getElementById('hours');
+      const minutesElement = document.getElementById('minutes');
+      const secondsElement = document.getElementById('seconds');
+
+      if (daysElement) daysElement.innerText = textDay.toString();
+      if (hoursElement) hoursElement.innerText = textHour.toString();
+      if (minutesElement) minutesElement.innerText = textMinute.toString();
+      if (secondsElement) secondsElement.innerText = textSecond.toString();
+    };
+
+    setInterval(countdown, 1000);
+  </script>
+</section>

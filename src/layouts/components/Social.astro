@@ -1,0 +1,82 @@
+---
+const { source, className } = Astro.props;
+
+import {
+  IoCall,
+  IoLocation,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+  IoMail,
+} from "react-icons/io5";
+
+const {
+  instagram,
+  linkedin,
+  email,
+  phone,
+  address,
+} = source;
+---
+
+<ul class={className}>
+  {
+    instagram && (
+      <li class="inline-block">
+        <a
+          aria-label="instagram"
+          href={instagram}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <IoLogoInstagram />
+        </a>
+      </li>
+    )
+  }
+  {
+    linkedin && (
+      <li class="inline-block">
+        <a
+          aria-label="linkedin"
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <IoLogoLinkedin />
+        </a>
+      </li>
+    )
+  }
+  {
+    email && (
+      <li class="inline-block">
+        <a aria-label="email" href={`mailto:${email}`}>
+          <IoMail />
+        </a>
+      </li>
+    )
+  }
+  {
+    phone && (
+      <li class="inline-block">
+        <a aria-label="telephone" href={`tel:${phone}`}>
+          <IoCall />
+        </a>
+      </li>
+    )
+  }
+  {
+    address && (
+      <li class="inline-block">
+        <a
+          aria-label="location"
+          href={address}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <IoLocation />
+        </a>
+      </li>
+    )
+  }
+</ul>
