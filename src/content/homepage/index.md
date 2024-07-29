@@ -60,22 +60,22 @@ testimonial:
       avatar: "/images/users/user-6.png"
       organization: Mahasiswa UNS
       rating: five
-      content: Instruktur di Bottcamp Cyber House sangat berpengalaman dan memberikan penjelasan yang mudah dipahami.
+      content: Instruktur di Bootcamp Cyber House sangat berpengalaman dan memberikan penjelasan yang mudah dipahami.
     - author: Kira Diana
       avatar: "/images/users/user-2.png"
       organization: SMK 1 Purwakarta
       rating: three
-      content: Materi yang diajarkan di Bottcamp Cyber House sangat relevan dengan kebutuhan industri saat ini.
+      content: Materi yang diajarkan di Bootcamp Cyber House sangat relevan dengan kebutuhan industri saat ini.
     - author: Ibnu Pangeran
       avatar: "/images/users/user-3.png"
       organization: Mahasiswa Universitas Indonesia
       rating: five
-      content: Materi yang diajarkan di Bottcamp Cyber House sangat relevan dengan kebutuhan industri saat ini.
+      content: Materi yang diajarkan di Bootcamp Cyber House sangatlah menyenangkan dan mudah dimengerti.
     - author: Firli Yani
       avatar: "/images/users/user-4.png"
       organization: Mahasiswi UNIKOM Bandung
       rating: five
-      content: Bottcamp Cyber House memiliki suasana belajar yang kondusif, mendukung dan materi belajar berstandar industri
+      content: Bootcamp Cyber House memiliki suasana belajar yang kondusif, mendukung dan materi belajar berstandar industri.
     - author: Tika Intan
       avatar: "/images/users/user-1.png"
       organization: Mahasiswi Widyatama Bandung
@@ -85,15 +85,15 @@ testimonial:
       avatar: "/images/users/user-5.png"
       organization: Mahasiswa Politeknik Bandung
       rating: five
-      content: Kurikulum di Bottcamp Cyber House selalu diperbarui sesuai dengan perkembangan terbaru di bidang Cyber Scurity.
+      content: Kurikulum di Bootcamp Cyber House selalu diperbarui sesuai dengan perkembangan terbaru di bidang Cyber Security.
     - author: Raka Putra
       avatar: "/images/users/user-5.png"
       organization: Karyawan Swasta
       rating: five
-      content: Fasilitas di Bottcamp Cyber House sangat memadai untuk mendukung proses belajar mengajar.
+      content: Fasilitas di Bootcamp Cyber House sangat memadai untuk mendukung proses belajar mengajar.
     - author: Kaya Insan
       avatar: "/images/users/user-5.png"
       organization: SMAN 1 Purwakarta
       rating: five
-      content: Bottcamp Cyber House membantu peserta membangun jaringan profesional yang luas di industri Cyber Scurity.
+      content: Bootcamp Cyber House membantu peserta membangun jaringan profesional yang luas di industri Cyber Security.
 ---
