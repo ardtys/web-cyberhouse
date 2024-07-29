@@ -68,32 +68,32 @@ testimonial:
       content: Materi yang diajarkan di Bottcamp Cyber House sangat relevan dengan kebutuhan industri saat ini.
     - author: Ibnu Pangeran
       avatar: "/images/users/user-3.png"
-      organization: Mahasiswa 
+      organization: Mahasiswa Universitas Indonesia
       rating: five
       content: Materi yang diajarkan di Bottcamp Cyber House sangat relevan dengan kebutuhan industri saat ini.
     - author: Firli Yani
       avatar: "/images/users/user-4.png"
-      organization: meta limited
+      organization: Mahasiswi UNIKOM Bandung
       rating: five
       content: Bottcamp Cyber House memiliki suasana belajar yang kondusif, mendukung dan materi belajar berstandar industri
     - author: Tika Intan
       avatar: "/images/users/user-1.png"
-      organization: meta limited
+      organization: Mahasiswi Widyatama Bandung
       rating: three
       content: Cyber House memberi pelajaran praktek langsung, sehingga lebih siap menghadapi tantangan di dunia nyata.
-    - author: Fathir Akbar
+    - author: Daffin Putra
       avatar: "/images/users/user-5.png"
-      organization: meta limited
+      organization: Mahasiswa Politeknik Bandung
       rating: five
       content: Kurikulum di Bottcamp Cyber House selalu diperbarui sesuai dengan perkembangan terbaru di bidang Cyber Scurity.
     - author: Raka Putra
       avatar: "/images/users/user-5.png"
-      organization: meta limited
+      organization: Karyawan Swasta
       rating: five
       content: Fasilitas di Bottcamp Cyber House sangat memadai untuk mendukung proses belajar mengajar.
     - author: Kaya Insan
       avatar: "/images/users/user-5.png"
-      organization: meta limited
+      organization: SMAN 1 Purwakarta
       rating: five
       content: Bottcamp Cyber House membantu peserta membangun jaringan profesional yang luas di industri Cyber Scurity.
 ---
